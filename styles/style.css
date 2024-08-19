@@ -189,6 +189,7 @@ nav ul button:hover{
 .skill-card-container{
     padding-top: 50px;
     display: flex;
+    flex-direction: row;
     gap: 20px;
 }
 .skill-card-1{
@@ -211,15 +212,14 @@ nav ul button:hover{
     box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
-
-.skill-card img{
-    padding-bottom: 15px;
+.skill-card-1 img{
+    padding-top: 10px;
 }
 .skill-card-2 img{
-    height: 40px;
+    height: 42px;
 }
 .skill-card-3 img{
-    height: 40px;
+    height: 42px;
 }
 .skill-card-1 , h6{
     padding-top: 20px;
