@@ -74,9 +74,7 @@ body{
 }
 nav h1{
     font-weight: 800;
-    font-size:40px;
-
-    
+    font-size:40px;  
 }
 nav ul li:hover{
     background-color: #ff5705;
