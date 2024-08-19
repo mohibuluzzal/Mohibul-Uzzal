@@ -167,8 +167,6 @@ nav ul button:hover{
     display: flex;
     text-align: center;
     gap: 35px;
-    
-
 }
 .info p{
     padding-bottom: 10px;
