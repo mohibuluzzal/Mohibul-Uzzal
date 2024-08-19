@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: "Comic Neue", cursive;
+    font-family: "Azeret Mono", monospace;
 }
 .nav-banner-container{
     max-width: 1400px;
@@ -31,12 +31,12 @@ body{
 }
 .common-first-text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(117, 117, 117);
 }
 .common-second-text{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(117, 117, 117);
 }
 .common-third-text{
@@ -46,7 +46,11 @@ body{
     margin-bottom: 15px;
 }
 .common-heading-second-type{
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.common-heading-second-type-2{
+    font-size: 17px;
     font-weight: 700;
 }
 .common-heading-third-type{
@@ -102,7 +106,7 @@ nav ul li:hover{
     font-weight: 600;
     padding: 10px 15px;
     border-radius: 30px;
-    font-family: "Comic Neue", cursive;
+    font-family: "Azeret Mono", monospace;
     border: none;
     
 }
@@ -176,12 +180,14 @@ nav ul button:hover{
 ======================== */
 .what-i-do-sec{
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 160px;
+    padding-right: 140px;
+    line-height: 25px;
 }
 .what-i-do-sec h3{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
+
 /* What I do section end
 ======================== */
 
@@ -192,19 +198,54 @@ nav ul button:hover{
     display: flex;
     gap: 20px;
 }
-.skill-card-container .skill-card{
+.skill-card-1{
     padding: 30px;
     box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
-    
+    border-radius: 8px;
 }
+.skill-card-2{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skill-card-3{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skill-card-4{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
 .skill-card img{
     padding-bottom: 15px;
+}
+.skill-card-2 img{
+    height: 40px;
+}
+.skill-card-3 img{
+    height: 40px;
 }
 .skill-card h6{
     padding-bottom: 15px;
 }
+.skill-card-1:hover{
+    background-color: #f0db4f;
+}
+.skill-card-2:hover{
+    background-color: #61dafb;
+}
+.skill-card-3:hover{
+    background-color: #8cc84b;
+}
+.skill-card-4:hover{
+    background-color: #00ed64;
+}
 /* skill card container section end
 ================================== */
+
 
 /* A summary of My Resume section start
 ==================================== */
