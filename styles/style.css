@@ -24,11 +24,11 @@ body{
     max-width: 920px;
     margin: 0 auto;
 }
-/* .common-heading{
+.common-heading{
     font-size: 30px;
     font-weight:700;
 
-} */
+}
 .common-first-text{
     font-weight: 400;
     font-size: 16px;
@@ -45,10 +45,10 @@ body{
     color: rgb(117, 117, 117);
     margin-bottom: 15px;
 } */
-/* .common-heading-second-type{
+.common-heading-second-type{
     font-size: 14px;
     font-weight: 700;
-} */
+}
 /* .common-heading-second-type-2{
     font-size: 17px;
     font-weight: 700;
@@ -146,7 +146,7 @@ nav ul button:hover{
 
 /* About me section start
 ====================== */
-/* .about-me-container{
+.about-me-container{
     display: flex;
     justify-content: center;
     height: 450px;
@@ -172,7 +172,7 @@ nav ul button:hover{
 }
 .info p{
     padding-bottom: 10px;
-} */
+}
 
 /* What I do section start
 ======================== */
