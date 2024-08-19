@@ -27,18 +27,17 @@ body{
 .common-heading{
     font-size: 30px;
     font-weight:700;
-
 }
 .common-first-text{
     font-weight: 400;
     font-size: 16px;
     color: rgb(117, 117, 117);
 }
-/* .common-second-text{
+.common-second-text{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(117, 117, 117);
-} */
+}
 /* .common-third-text{
     font-weight: 600;
     font-size: 16px;
@@ -49,10 +48,10 @@ body{
     font-size: 14px;
     font-weight: 700;
 }
-/* .common-heading-second-type-2{
+.common-heading-second-type-2{
     font-size: 17px;
     font-weight: 700;
-} */
+}
 /* .common-heading-third-type{
     font-size: 16px;
     font-weight: 700;
@@ -187,7 +186,7 @@ nav ul button:hover{
 
 /* skill card container section start
 ================================== */
-/* .skill-card-container{
+.skill-card-container{
     padding-top: 50px;
     display: flex;
     gap: 20px;
@@ -222,8 +221,20 @@ nav ul button:hover{
 .skill-card-3 img{
     height: 40px;
 }
-.skill-card h6{
-    padding-bottom: 15px;
+.skill-card-1 , h6{
+    padding-top: 20px;
+}
+.skill-card-1 p{
+    padding-top: 20px;
+}
+.skill-card-2 p{
+    padding-top: 20px;
+}
+.skill-card-3 p{
+    padding-top: 20px;
+}
+.skill-card-4 p{
+    padding-top: 20px;
 }
 .skill-card-1:hover{
     background-color: #f0db4f;
@@ -236,7 +247,7 @@ nav ul button:hover{
 }
 .skill-card-4:hover{
     background-color: #00ed64;
-} */
+}
 /* skill card container section end
 ================================== */
 
