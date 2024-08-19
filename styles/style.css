@@ -24,7 +24,7 @@ body{
     max-width: 920px;
     margin: 0 auto;
 }
-.common-heading{
+/* .common-heading{
     font-size: 30px;
     font-weight:700;
 
@@ -114,13 +114,13 @@ nav ul button:hover{
 
 /* Banner style here
 ================ */
-.banner-container{
+/* .banner-container{
     display: flex;
     padding-top: 50px;
     gap: 150px;
     margin: 0px 10px 0 150px;
-}
-.banner-first-column{
+} */
+/* .banner-first-column{
     display: flex;
     padding-right: 20px;
     padding-left: 20px;
@@ -142,11 +142,11 @@ nav ul button:hover{
 }
 .banner-first-column button:hover{
     background-color: #ff5705;
-}
+} */
 
 /* About me section start
 ====================== */
-.about-me-container{
+/* .about-me-container{
     display: flex;
     justify-content: center;
     height: 450px;
@@ -172,11 +172,11 @@ nav ul button:hover{
 }
 .info p{
     padding-bottom: 10px;
-}
+} */
 
 /* What I do section start
 ======================== */
-.what-i-do-sec{
+/* .what-i-do-sec{
     text-align: center;
     padding-left: 160px;
     padding-right: 140px;
@@ -184,14 +184,14 @@ nav ul button:hover{
 }
 .what-i-do-sec h3{
     padding-bottom: 15px;
-}
+} */
 
 /* What I do section end
 ======================== */
 
 /* skill card container section start
 ================================== */
-.skill-card-container{
+/* .skill-card-container{
     padding-top: 50px;
     display: flex;
     gap: 20px;
@@ -240,14 +240,14 @@ nav ul button:hover{
 }
 .skill-card-4:hover{
     background-color: #00ed64;
-}
+} */
 /* skill card container section end
 ================================== */
 
 
 /* A summary of My Resume section start
 ==================================== */
-.resume-container{
+/* .resume-container{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
@@ -275,12 +275,12 @@ nav ul button:hover{
 }
 .resume-container button:hover{
     background-color: #ff5705;
-}
+} */
 /* A summary of My Resume section end
 ==================================== */
 
 /* footer */
-.bg-clr-foot{
+/* .bg-clr-foot{
     background-color: rgb(255, 248, 243);
 }
 .footer-container{
@@ -331,4 +331,4 @@ textarea{
 }
 .second-section button:hover{
     background-color: #ff5705;
-}
+} */
