@@ -287,7 +287,7 @@ nav ul button:hover{
 ==================================== */
 
 /* footer */
-/* .bg-clr-foot{
+.bg-clr-foot{
     background-color: rgb(255, 248, 243);
 }
 .footer-container{
@@ -338,4 +338,4 @@ textarea{
 }
 .second-section button:hover{
     background-color: #ff5705;
-} */
+}
