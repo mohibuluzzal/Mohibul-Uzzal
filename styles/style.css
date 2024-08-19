@@ -292,6 +292,7 @@ nav ul button:hover{
 }
 .footer-container{
     display: flex;
+    flex-direction: row;
     padding-top: 130px;
 }
 .first-section{
@@ -327,10 +328,9 @@ textarea{
     border: none;
     border-radius: 7px;
     padding-top: 10px;
-    font-family: "Comic Neue", cursive;
+    font-family: "Azeret Mono", monospace;
     font-weight: 600;
-    color: rgb(117, 117, 117);
-    
+    color: rgb(117, 117, 117);  
 }
 .second-section button{
     margin-top: 24px;
