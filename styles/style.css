@@ -38,12 +38,12 @@ body{
     font-size: 12px;
     color: rgb(117, 117, 117);
 }
-/* .common-third-text{
+.common-third-text{
     font-weight: 600;
     font-size: 16px;
     color: rgb(117, 117, 117);
     margin-bottom: 15px;
-} */
+}
 .common-heading-second-type{
     font-size: 14px;
     font-weight: 700;
@@ -52,11 +52,11 @@ body{
     font-size: 17px;
     font-weight: 700;
 }
-/* .common-heading-third-type{
+.common-heading-third-type{
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
-} */
+}
 
 /* Nav-bar start
 ============= */
@@ -254,7 +254,7 @@ nav ul button:hover{
 
 /* A summary of My Resume section start
 ==================================== */
-/* .resume-container{
+.resume-container{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
@@ -282,7 +282,7 @@ nav ul button:hover{
 }
 .resume-container button:hover{
     background-color: #ff5705;
-} */
+}
 /* A summary of My Resume section end
 ==================================== */
 
