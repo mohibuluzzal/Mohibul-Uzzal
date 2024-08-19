@@ -28,36 +28,36 @@ body{
     font-size: 30px;
     font-weight:700;
 
-}
+} */
 .common-first-text{
     font-weight: 400;
     font-size: 16px;
     color: rgb(117, 117, 117);
 }
-.common-second-text{
+/* .common-second-text{
     font-weight: 400;
     font-size: 14px;
     color: rgb(117, 117, 117);
-}
-.common-third-text{
+} */
+/* .common-third-text{
     font-weight: 600;
     font-size: 16px;
     color: rgb(117, 117, 117);
     margin-bottom: 15px;
-}
-.common-heading-second-type{
+} */
+/* .common-heading-second-type{
     font-size: 14px;
     font-weight: 700;
-}
-.common-heading-second-type-2{
+} */
+/* .common-heading-second-type-2{
     font-size: 17px;
     font-weight: 700;
-}
-.common-heading-third-type{
+} */
+/* .common-heading-third-type{
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
-}
+} */
 
 /* Nav-bar start
 ============= */
@@ -114,13 +114,13 @@ nav ul button:hover{
 
 /* Banner style here
 ================ */
-/* .banner-container{
+.banner-container{
     display: flex;
     padding-top: 50px;
     gap: 150px;
     margin: 0px 10px 0 150px;
-} */
-/* .banner-first-column{
+}
+.banner-first-column{
     display: flex;
     padding-right: 20px;
     padding-left: 20px;
@@ -142,7 +142,7 @@ nav ul button:hover{
 }
 .banner-first-column button:hover{
     background-color: #ff5705;
-} */
+}
 
 /* About me section start
 ====================== */
