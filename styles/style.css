@@ -9,6 +9,7 @@ body{
 }
 .nav-banner-container{
     max-width: 1400px;
+    margin: 0 auto;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-size: contain, 600px;
