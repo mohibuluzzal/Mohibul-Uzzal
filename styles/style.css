@@ -15,8 +15,8 @@ body{
     background-size: contain, 600px;
     background-position: top left, right bottom;
     background-color: rgb(255, 248, 243);
-    /* margin: 30px 120px 0px 150px; */
     padding-top: 30px;
+    
     
 }
 /* common style
@@ -119,6 +119,7 @@ nav ul button:hover{
     padding-top: 50px;
     gap: 150px;
     margin: 0px 10px 0 150px;
+    
 }
 .banner-first-column{
     display: flex;
