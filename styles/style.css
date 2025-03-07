@@ -283,6 +283,9 @@ nav ul button:hover{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.resume-container button >i{
+    margin-right: 10px;
+}
 .resume-container button:hover{
     background-color: #ff5705;
 }
