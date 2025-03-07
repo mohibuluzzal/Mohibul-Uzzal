@@ -1,0 +1,346 @@
+/*Add google font 
+================= */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Nunito Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Embed Google font
+================= */
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+.nav-banner-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain, 600px;
+    background-position: top left, right bottom;
+    background-color: rgb(255, 248, 243);
+    padding-top: 30px; 
+}
+
+/* common styles
+============= */
+.common-margin{
+    max-width: 920px;
+    margin: 0 auto;
+}
+.common-heading{
+    font-size: 30px;
+    font-weight:700;
+}
+.common-first-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+.common-second-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+.common-third-text{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 15px;
+}
+.common-heading-second-type{
+    font-size: 14px;
+    font-weight: 700;
+}
+.common-heading-second-type-2{
+    font-size: 17px;
+    font-weight: 700;
+}
+.common-heading-third-type{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* nav styles start
+================ */
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between; 
+}
+.nav-bar-container h1> a{
+    text-decoration: none;
+}
+#special-color{
+    color: #ff5705;
+}
+nav h1{
+    font-weight: 800;
+    font-size:40px;  
+}
+nav ul li:hover{
+    background-color: #ff5705;
+
+}
+.ul-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.ul-container ul li{
+    list-style: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.ul-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+.btn-same{
+    background-color: #8d02cf;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-family: "Azeret Mono", monospace;
+    border: none;
+    
+}
+nav ul button:hover{
+    background-color: #ff5705;
+}
+/* Banner style here
+================ */
+.banner-container{
+    display: flex;
+    padding-top: 50px;
+    gap: 150px;
+    margin: 0px 10px 0 150px;
+    
+}
+.banner-first-column{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.banner-first-column h5{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.banner-first-column h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.banner-first-column p{
+    text-align: justify;
+    padding-bottom: 15px;
+}
+.banner-first-column button:hover{
+    background-color: #ff5705;
+}
+/* About me section start
+====================== */
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    background-color: rgb(255, 248, 243);
+    border-radius: 8px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.about-me{
+    margin: 50px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.info-container{
+    display: flex;
+    text-align: center;
+    gap: 35px;
+}
+.info p{
+    padding-bottom: 10px;
+}
+/* What I do section start
+======================== */
+.what-i-do-sec{
+    text-align: center;
+    padding-left: 160px;
+    padding-right: 140px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+.what-i-do-sec h3{
+    padding-bottom: 15px;
+}
+/* What I do section end
+======================== */
+
+/* skill card container section start
+================================== */
+.skill-card-container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.skill-card-1{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skill-card-2{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skill-card-3{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skill-card-4{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skill-card-1 img{
+    padding-top: 10px;
+}
+.skill-card-2 img{
+    height: 42px;
+}
+.skill-card-3 img{
+    height: 42px;
+}
+.skill-card-1 , h6{
+    padding-top: 20px;
+}
+.skill-card-1 p{
+    padding-top: 20px;
+}
+.skill-card-2 p{
+    padding-top: 20px;
+}
+.skill-card-3 p{
+    padding-top: 20px;
+}
+.skill-card-4 p{
+    padding-top: 20px;
+}
+.skill-card-1:hover{
+    background-color: #f0db4f;
+}
+.skill-card-2:hover{
+    background-color: #61dafb;
+}
+.skill-card-3:hover{
+    background-color: #8cc84b;
+}
+.skill-card-4:hover{
+    background-color: #00ed64;
+}
+/* skill card container section end
+================================== */
+
+
+/* A summary of My Resume section start
+==================================== */
+.resume-container{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 130px;
+    padding-bottom: 115px;
+}
+.resume-container h3{
+    padding-bottom: 80px;
+}
+.resume-contain{
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.edu-head{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(71, 71, 71);
+    padding-bottom: 20px;
+}
+.my-education hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-container button:hover{
+    background-color: #ff5705;
+}
+/* A summary of My Resume section end
+==================================== */
+
+/* footer */
+.bg-clr-foot{
+    background-color: rgb(255, 248, 243);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 130px;
+}
+.first-section{
+    width: 50%;
+}
+.second-section{
+    width: 50%;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.first-section p{
+    color: rgb(71, 71, 71);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.second-section h3{
+    padding-bottom: 20px;
+}
+input{
+    height: 40px;
+    width: 70%;
+    border: none;
+    border-radius: 7px;
+}
+::placeholder{
+    padding-left: 20px;
+}
+textarea{
+    width: 70%;
+    border: none;
+    border-radius: 7px;
+    padding-top: 10px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    color: rgb(117, 117, 117);  
+}
+.second-section button{
+    margin-top: 24px;
+    margin-bottom: 124px;
+}
+.second-section button:hover{
+    background-color: #ff5705;
+}
