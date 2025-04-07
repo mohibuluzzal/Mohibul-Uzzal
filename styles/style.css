@@ -123,11 +123,10 @@ nav ul button:hover{
     margin: 0px 10px 0 150px;
 }
 .banner-first-column{
-    display: flex;
+    /* display: flex; */
     padding-right: 20px;
     padding-left: 20px;
     flex-direction: column;
-    justify-content: center;
     margin: 0 auto;
 }
 
@@ -370,6 +369,11 @@ textarea{
         padding-top: 30px;
         gap: 50px;
         margin: 0px 10px 0 10px;
+    }
+    .first-button{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     /* about me section for responsive
